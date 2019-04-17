@@ -5,7 +5,6 @@
 }
 body{
 overflow-x: hidden;
-
 }
 h4{
   color: white;
@@ -32,10 +31,12 @@ a{
 .bg-image{
   background-color: black;
   height: 100vh;
+
 }
 .bg-image img{
   background-repeat: no-repeat;
   background-size: cover;
+  background-position:center;
   position: absolute;
   top:0;
   opacity: .2;
