@@ -1,0 +1,94 @@
+.home {
+  background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/black-banner-background-10.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: white;
+}
+.container{
+  background-image: url("https://us.123rf.com/450wm/pansasunavee/pansasunavee1508/pansasunavee150800021/43585661-grungy-painted-black-wall-use-for-background.jpg?ver=6");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#portfolio-color {
+  color: orange;
+}
+nav>ul {
+  text-align: right;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 18px;
+  margin-right: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color:orange;
+  font-family: 'Mali', cursive;
+}
+nav>ul>li>a:hover {
+  color: white;
+  background-color: black;
+}
+#nav {
+  position: fixed;
+  right: 60px;
+}
+#home{
+  padding: 160px;
+  padding-right: 30px;
+}
+.position {
+  position: relative;
+  bottom: 40px;
+  padding-left: 50%;
+}
+.position p {
+  font-family: 'Kalam', cursive;
+  font-size: 22px;
+}
+#about img {
+  float: right;
+  border-radius: 50%;
+}
+#about {
+  padding-bottom: 30px;
+  padding-bottom: 100px;
+}
+ h1, h2 {
+  font-family: 'Mali', cursive;
+}
+#about h2 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: orange;
+}
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+p, ul, ol {
+  font-family: 'Josefin Slab', serif;
+  font-size: 17px;
+  color: white;
+}
+#img {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position:relative;
+}
+#img p {
+  position:relative;
+  top:185px;
+  right:110px;
+  font-weight:bold;
+}
+footer {
+  margin-top: 15%;
+  text-align: center;
+  background-color: #188AD8;
+  padding: 70px;
+}
