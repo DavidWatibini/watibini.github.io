@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  background-color: rgb(44, 0, 0);
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  background-image: url("https://www.grammy.com/sites/com/files/styles/news_detail_header/public/turntable-1109588_1280.jpg?itok=1Slg1Lf8");
+  background-size: cover;
+}
+
+.display-1 {
+  font-size: 400%;
+}
+
+.bold-font {
+  font-weight: 700;
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  margin-top: 10%;
+  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .title {
+    margin-top: 100px;
+    font-size: 14px;
+  }
+
+  nav ul li {
+    font-size: 10px;
+    justify-content: center;
+  }
+
+  .header::before {
+    height: 50%;
+  }
+}
+
+/* End of Header */
+
+.profile {
+  margin-top: 90px;
+}
+.profile h4 {
+  margin: 0;
+}
+
+.profile h6 {
+  font-size: 18px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.btn-primary{
+    background-color: brown !important;
+}
