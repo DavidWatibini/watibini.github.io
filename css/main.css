@@ -68,6 +68,13 @@
   margin: 0;
 }
 
-.btn-primary{
-    background-color: brown !important;
+.btn-primary {
+  background-color: brown !important;
+}
+.projects {
+  margin-top: 255px;
+}
+.icons {
+  position: relative;
+  top: 60px;
 }
