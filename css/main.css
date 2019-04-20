@@ -39,7 +39,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .title {
-    margin-top: 100px;
+    margin-top: 50%;
     font-size: 14px;
   }
 
@@ -77,4 +77,18 @@
 .icons {
   position: relative;
   top: 60px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .header::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  background-image: url("https://www.grammy.com/sites/com/files/styles/news_detail_header/public/turntable-1109588_1280.jpg?itok=1Slg1Lf8");
+  background-size: cover;
+}
+  }
 }
