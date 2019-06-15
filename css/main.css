@@ -96,7 +96,7 @@
   margin-top: 55px;
 }
 .projects {
-  margin-top: 255px;
+  margin-top: 300px;
 }
 .icons {
   position: relative;
@@ -180,5 +180,7 @@
   width: 100%;
   background: #111;
   position: relative;
-  top: 105px;
+  top: 100px;
 }
+
+
